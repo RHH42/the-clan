@@ -1,0 +1,90 @@
+  /*  THIS IS THE CSS-HTML INTEGRATION TEST CSS FILE */
+.body
+  {
+    margin:15px;
+    width:1200px;
+    background-color:bisque;
+    font-size:14px;
+    font-family:Verdana;
+  }
+  
+.border
+  {
+    border-style:solid; 
+    width:1px; 
+    color:brown;
+    border-radius:5px
+    } 
+
+.name
+  {/* <div class="name-square"> */
+        height: 30px;
+        width: 100%;
+  }/*left-align
+    text-align:center;*/
+    
+.photo
+  {/*FIXED [if exists PHOTO]
+    <div class="photo-square">*/
+        height: 250px;
+        width: 250px; 
+  }/*left-align DIV1? */
+
+.birth
+  {/*FIXED [if exists BIRTH]
+    <div class="birth-square"> </div>*/
+        height: 80px;
+        width: 950px;
+  }/*   date - line 1
+        place - line 2
+        parents - line 3*/
+
+
+.marriage
+  {/*FIXED [if exists MARRIAGE]
+    <div class="marriage-square"> </div> */
+        height: 80px;
+        width: 950px;
+  }/*right-align DIV2?
+        MARRIAGE
+        spouse - line 1
+        date - line 2
+        place - line 3*/
+    
+
+.death
+  {/*FIXED [if exists DEATH]
+     <div class="death-square"> </div>*/
+        height: 80px;
+        width: 60%;
+  }/*right-align DIV2?
+        DEATH
+        date - line 1
+        place - line 2
+        buried at - line 3 */
+    
+
+.bio
+  {/* OPTIONAL [if exists BIO] 
+     <div class="bio-square"> </div> */
+        height: fit-content;
+        width: 100%;
+  } /* left-align */
+    
+.children
+  {/* OPTIONAL [if exists CHILDREN 
+     <div class="children-square"> </div>*/
+        height: fit-content;
+        width: 100%;
+  }/* left-align */
+
+.thumbnails
+  {/* OPTIONAL [if exists THUMBNAILS 
+     <div class="thumbnails-square"> </div>*/
+        height: fit-content;
+         width: 100%;
+  }/* left-align
+        {border style:solid}
+        border radius: 5px
+        hyperlinks to large photos */ 
+    
