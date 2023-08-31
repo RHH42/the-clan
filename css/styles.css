@@ -1,7 +1,7 @@
   /*  THIS IS THE CSS-HTML INTEGRATION TEST CSS FILE */
 .body
   {
-    margin:15px;
+    border-style:double; width:15px;
     width:1200px;
     background-color:bisque;
     font-size:14px;
